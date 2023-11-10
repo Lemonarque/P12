@@ -1,7 +1,7 @@
 # Portfolio
 
 Projet 12 et dernier du parcours "Intégrateur Web" chez OpenClassrooms.
-L'objectif de la mission consiste à créer mon portfolio, conçu pour présenter mes compétences acquises, mes projets (ou réalisations) créés tout au long de cetteformation ; ainsi que mon expérience professionnelle et futures expériences professionnelles.
+L'objectif de la mission consiste à créer mon portfolio, conçu pour présenter mes compétences acquises, mes projets (ou réalisations) créés tout au long de cette formation ; ainsi que mon expérience professionnelle et futures expériences professionnelles.
 
 ## Développement
 
@@ -9,7 +9,6 @@ L'objectif de la mission consiste à créer mon portfolio, conçu pour présente
 
 Retrouvez la maquette créée avec Figma :
   
-  [Maquette](./public/assets/maquette/)
   [Figma](https://www.figma.com/file/3BX4tZlm29DFlm7vz8gmxI/Portfolio?type=design&node-id=3%3A86&mode=design&t=kOlZGQMifEV2lhLg-1)
 
 ### Technologies utilisées
