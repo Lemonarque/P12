@@ -7,6 +7,7 @@ import LinkedIn from '../../assets/icones/linkedin.png';
 import DarkLinkedIn from '../../assets/icones/darklinkedin.png';
 import Twitter from '../../assets/icones/twitter.png';
 import DarkTwitter from '../../assets/icones/darktwitter.png';
+import ImageStyle from '../../utils/style/imagestyle';
 import '../../sass/containers/_introduction.scss';
 
 const Introduction = () => {
@@ -36,7 +37,8 @@ const Introduction = () => {
                 <DownloadBtn />
             </div>
             <div className="intro__photo">
-                <img src={MaPhoto} alt='Portrait de Matthieu Bonjour'/>  
+                <ImageStyle />
+                <img className='image-theme' src={MaPhoto} alt='Portrait de Matthieu Bonjour'/>
                 <h3>Matthieu Bonjour</h3>
                 <h3>Développeur front-end</h3>
             </div>

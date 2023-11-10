@@ -10,6 +10,10 @@ const StyledGlobalStyle = createGlobalStyle`
         margin: 20px 80px;  
         width: 90%;
     }
+    a {
+      color: ${(props) =>
+        props.isDarkMode ? 'white' : 'black'}; 
+    }
 `
 
 function GlobalStyle() {
