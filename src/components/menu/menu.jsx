@@ -13,7 +13,7 @@ const Menu = () => {
                     </a>
                 </li>
                 <li>
-                    <a className='link-theme' href='#'>
+                    <a className='link-theme' href='#skills'>
                     COMPÉTENCES
                     </a>
                 </li>

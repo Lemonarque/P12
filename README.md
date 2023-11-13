@@ -14,16 +14,19 @@ Retrouvez la maquette créée avec Figma :
 ### Technologies utilisées
   
   **React**
+  <br>
   **React Router**
+  <br>
   **Sass**
+  <br>
   **Styled-components**
 
 ## Installation
 
-Suivez les étapes ci-dessous pour installer et exécute le projet :
+Suivez les étapes ci-dessous pour installer et exécuter le projet :
 
-1. Clôner le repository GitHub sur votre ordinateur.
-2. Accédez au répertoiree du projet dans votre terminal.
+1. Clônez le repository GitHub sur votre ordinateur.
+2. Accédez au répertoire du projet dans votre terminal.
 3. Tapez les commandes suivantes :
    1. `npm install` ou `yarn install` pour installer les dépendances
    2. `npm start` ou `yarn start` pour démarrer l'application
