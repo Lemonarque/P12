@@ -2,14 +2,14 @@ import { createGlobalStyle } from 'styled-components'
 import { useTheme } from '../hooks'
 
 const StyledButtonStyle = createGlobalStyle`
-    .intro__desc-cv {
+    .intro__desc-cv, .error__button {
         background-color: ${(props) => 
         props.isDarkMode ? '#A3DEE7' : '#4419FF'};
         border: none;
         border-radius: 20px; 
         cursor: pointer;
         margin-top: 10px;
-        height: 35px;  
+        height: 45px;  
         width: 200px;    
     } 
     .theme-color {

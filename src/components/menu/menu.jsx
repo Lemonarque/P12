@@ -8,12 +8,12 @@ const Menu = () => {
             <ul>
                 <LinkStyle />
                 <li>
-                    <a className='link-theme' href='#a-propos' onClick={() => (window.location.hash = "#a-propos")}>
+                    <a className='link-theme' href='/#a-propos' onClick={() => (window.location.hash = "#a-propos")}>
                     À PROPOS
                     </a>
                 </li>
                 <li>
-                    <a className='link-theme' href='#skills'>
+                    <a className='link-theme' href='/#skills'>
                     COMPÉTENCES
                     </a>
                 </li>
