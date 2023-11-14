@@ -15,7 +15,7 @@ const Introduction = () => {
 
     return (
         <section className="intro">
-            <h2 id='a-propos' className='intro__title'>Présentation</h2>
+            <h2 id='a-propos' className='intro__title'>À propos</h2>
             <div className="intro__desc">
                 <p>Passionné par les nouvelles technologies, j'ai choisi de me reconvertir professionnellement après 8 années passées dans la vente de produits divers et variés. 
                     <br/> 

@@ -1,5 +1,6 @@
 import ButtonStyle from "../../utils/style/boutonstyle";
 import cv from "../../assets/download/cv.pdf";
+import '../../sass/components/_buttonstyle.scss'
 
 const DownloadBtn = () => {
   return (
