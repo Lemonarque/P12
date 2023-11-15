@@ -3,8 +3,8 @@ import { useTheme } from '../hooks'
 
 const StyledButtonStyle = createGlobalStyle`
     .intro__desc-cv, .error__button {
-        background-color: ${(props) => 
-                props.isDarkMode ? '#A3DEE7' : '#4419FF'};
+        background-color: ${(props) =>
+          props.isDarkMode ? '#A3DEE7' : '#4419FF'};
         border: none;
         border-radius: 1000px;
         border-radius: 1000px;
@@ -17,8 +17,8 @@ const StyledButtonStyle = createGlobalStyle`
         width: 220px;     
     } 
     .form__button {
-        background-color: ${(props) => 
-            props.isDarkMode ? '#A3DEE7' : '#4419FF'};
+        background-color: ${(props) =>
+          props.isDarkMode ? '#A3DEE7' : '#4419FF'};
         border: none;    
         border-radius: 1000px;
         cursor: pointer;
@@ -34,20 +34,19 @@ const StyledButtonStyle = createGlobalStyle`
     .intro__desc-cv::before, 
     .error__button::before,
     .form__button::before  {
-        border: ${(props) => 
-            props.isDarkMode ? '6px solid #A3DEE7' : '6px solid #4419FF'};
-        box-shadow: ${(props) => 
-            props.isDarkMode ? '0 0 60px #a3dee7a3' : '0 0 60px #4419FFA3'} ;    
+        border: ${(props) =>
+          props.isDarkMode ? '6px solid #A3DEE7' : '6px solid #4419FF'};
+        box-shadow: ${(props) =>
+          props.isDarkMode ? '0 0 60px #a3dee7a3' : '0 0 60px #4419FFA3'} ;    
     }
     .intro__desc-cv::after, 
     .error__button::after,
     .form__button::after  {
-        border: ${(props) => 
-            props.isDarkMode ? '6px solid #a3dee7' : '6px solid #4419FF'};
+        border: ${(props) =>
+          props.isDarkMode ? '6px solid #a3dee7' : '6px solid #4419FF'};
     }
     .theme-color {
-        color: ${(props) =>
-            props.isDarkMode ? 'black' : 'white'};
+        color: ${(props) => (props.isDarkMode ? 'black' : 'white')};
         font-size: 16px;    
     }
 `

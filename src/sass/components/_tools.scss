@@ -1,11 +1,13 @@
-.skills__tools-grid { align-items: center;
-                      display: grid;
-                      gap: 15px;
-                      grid-template-columns: 1fr 1fr 1fr;
-                      justify-content: space-around; 
-                      margin-bottom: 20px;
-                      margin-top: 20px; 
-                      text-align: center;
-                      & img {margin-bottom: 5px;}
-                    }
-                    
+.skills__tools-grid {
+  align-items: center;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  & img {
+    margin-bottom: 5px;
+  }
+}

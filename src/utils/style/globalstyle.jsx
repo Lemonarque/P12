@@ -5,14 +5,12 @@ const StyledGlobalStyle = createGlobalStyle`
     body {
         background-color: ${(props) =>
           props.isDarkMode ? '#3a3a3a' : '#FAFAF2'};
-        color: ${(props) =>
-          props.isDarkMode ? 'white' : 'black'}; 
+        color: ${(props) => (props.isDarkMode ? 'white' : 'black')}; 
         margin: 20px 80px;  
         width: 90%;
     }
     a {
-      color: ${(props) =>
-        props.isDarkMode ? 'white' : 'black'}; 
+      color: ${(props) => (props.isDarkMode ? 'white' : 'black')}; 
     }
 `
 
