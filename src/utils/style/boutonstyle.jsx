@@ -4,8 +4,9 @@ import { useTheme } from '../hooks'
 const StyledButtonStyle = createGlobalStyle`
     .intro__desc-cv, .error__button {
         background-color: ${(props) => 
-            props.isDarkMode ? '#A3DEE7' : '#4419FF'};
+                props.isDarkMode ? '#A3DEE7' : '#4419FF'};
         border: none;
+        border-radius: 1000px;
         border-radius: 1000px;
         cursor: pointer;
         height: 50px;  
