@@ -20,6 +20,8 @@ Retrouvez la maquette créée avec Figma :
   **Sass**
   <br>
   **Styled-components**
+  <br>
+  **Emailjs**
 
 ## Installation
 
