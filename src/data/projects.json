@@ -1,0 +1,153 @@
+[
+  {
+    "id": "project1",
+    "title": "Riding Cities",
+    "description": "Riding Cities est une association sportive qui promeut le skate en région parisienne. L'association souhaite améliorer son site internet.",
+    "cover": "../assets/projects/riding-cities/cover.webp",
+    "alt": "Photo d'un skateboard",
+    "tags": ["Front-End", "HTML", "CSS"],
+    "pictures": [
+      "../assets/projects/riding-cities/mock0.png",
+      "../assets/projects/riding-cities/mock1.png",
+      "../assets/projects/riding-cities/mock2.png",
+      "../assets/projects/riding-cities/mock3.png",
+      "../assets/projects/riding-cities/mock4.png",
+      "../assets/projects/riding-cities/mock5.png",
+      "../assets/projects/riding-cities/mock6.png",
+      "../assets/projects/riding-cities/mock7.png"
+    ],
+    "site": "https://matthieu83600.github.io/Riding-Cities/",
+    "github": "https://github.com/Matthieu83600/Riding-Cities"
+  },
+  {
+    "id": "project2",
+    "title": "Booki",
+    "description": "Booki est une start-up qui souhaite permettre aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.",
+    "cover": "../assets/projects/booki/cover.webp",
+    "alt": "Photo d'un hébergement du site de Booki",
+    "tags": ["Front-End", "HTML", "CSS", "Responsive"],
+    "pictures": [
+      "../assets/projects/booki/mock0.png",
+      "../assets/projects/booki/mock1.png",
+      "../assets/projects/booki/mock2.png",
+      "../assets/projects/booki/mock3.png",
+      "../assets/projects/booki/mock4.png",
+      "../assets/projects/booki/mock5.png",
+      "../assets/projects/booki/mock6.png",
+      "../assets/projects/booki/mock7.png"
+    ],
+    "site": "https://matthieu83600.github.io/Booki/",
+    "github": "https://github.com/Matthieu83600/Booki"
+  },
+  {
+    "id": "project3",
+    "title": "Ohmyfood",
+    "description": "Ohmyfood est une jeune start-up qui souhaite s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite faire sa place à Paris.",
+    "cover": "../assets/projects/ohmyfood/cover.webp",
+    "alt": "Photo d'un plat d'un restaurant",
+    "tags": ["Front-End", "HTML", "Sass", "Responsive"],
+    "pictures": [
+      "../assets/projects/ohmyfood/mock0.png",
+      "../assets/projects/ohmyfood/mock1.png",
+      "../assets/projects/ohmyfood/mock2.png",
+      "../assets/projects/ohmyfood/mock3.png",
+      "../assets/projects/ohmyfood/mock4.png",
+      "../assets/projects/ohmyfood/mock5.png",
+      "../assets/projects/ohmyfood/mock6.png",
+      "../assets/projects/ohmyfood/mock7.png"
+    ],
+    "site": "https://matthieu83600.github.io/OhMyFood/",
+    "github": "https://github.com/Matthieu83600/OhMyFood"
+  },
+  {
+    "id": "project4",
+    "title": "Print It",
+    "description": "Print It est une petite entreprise familiale. Elle souhaite dynamiser son site internet en y ajoutant un carrousel.",
+    "cover": "../assets/projects/print-it/cover.webp",
+    "alt": "Photo d'imagerie",
+    "tags": ["Front-End", "HTML", "CSS", "JavaScript"],
+    "pictures": [
+      "../assets/projects/print-it/mock0.png",
+      "../assets/projects/print-it/mock1.png",
+      "../assets/projects/print-it/mock2.png",
+      "../assets/projects/print-it/mock3.png",
+      "../assets/projects/print-it/mock4.png",
+      "../assets/projects/print-it/mock5.png",
+      "../assets/projects/print-it/mock6.png",
+      "../assets/projects/print-it/mock7.png"
+    ],
+    "site": "https://matthieu83600.github.io/Print-It/",
+    "github": "https://github.com/Matthieu83600/Print-It"
+  },
+  {
+    "id": "project5",
+    "title": "Portfolio - Sophie Bluel",
+    "description": "Sophie Bluel est une architecte d'intérieur qui souhaite mettre en avant son travail avec la création d'un site portfolio où elle pourra elle-même ajouter ses travaux en se connectant à son interface administrateur.",
+    "cover": "../assets/projects/portfolio-sophie-bluel/cover.png",
+    "alt": "Photo de rénovation d'un bar",
+    "tags": [
+      "Front-End",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Back-End",
+      "API",
+      "Swagger"
+    ],
+    "pictures": [
+      "../assets/projects/portfolio-sophie-bluel/mock0.png",
+      "../assets/projects/portfolio-sophie-bluel/mock1.png",
+      "../assets/projects/portfolio-sophie-bluel/mock2.png",
+      "../assets/projects/portfolio-sophie-bluel/mock3.png",
+      "../assets/projects/portfolio-sophie-bluel/mock4.png",
+      "../assets/projects/portfolio-sophie-bluel/mock5.png",
+      "../assets/projects/portfolio-sophie-bluel/mock6.png",
+      "../assets/projects/portfolio-sophie-bluel/mock7.png"
+    ],
+    "github": "https://github.com/Matthieu83600/Portfolio-Sophie-Bluel"
+  },
+  {
+    "id": "project6",
+    "title": "Kasa",
+    "description": "",
+    "cover": "../assets/projects/kasa/cover.png",
+    "alt": "",
+    "tags": "",
+    "pictures": [],
+    "site": "",
+    "github": ""
+  },
+  {
+    "id": "project7",
+    "title": "Nina Carducci",
+    "description": "",
+    "cover": "../assets/projects/nina-carducci/cover.png",
+    "alt": "",
+    "tags": "",
+    "pictures": [],
+    "site": "",
+    "github": ""
+  },
+  {
+    "id": "project8",
+    "title": "724 events",
+    "description": "",
+    "cover": "../assets/projects/724events/cover.png",
+    "alt": "",
+    "tags": "",
+    "pictures": [],
+    "site": "",
+    "github": ""
+  },
+  {
+    "id": "project9",
+    "title": "Argent Bank",
+    "description": "",
+    "cover": "../assets/projects/argent-bank/cover.webp",
+    "alt": "",
+    "tags": "",
+    "pictures": [],
+    "site": "",
+    "github": ""
+  }
+]

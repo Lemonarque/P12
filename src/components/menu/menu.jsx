@@ -22,12 +22,12 @@ const Menu = () => {
           </a>
         </li>
         <li>
-          <a className="link-theme" href="#">
+          <a className="link-theme" href="/#projets">
             PROJETS
           </a>
         </li>
         <li>
-          <a className="link-theme" href="#">
+          <a className="link-theme" href="/#contact">
             CONTACT
           </a>
         </li>

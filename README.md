@@ -8,20 +8,20 @@ L'objectif de la mission consiste à créer mon portfolio, conçu pour présente
 ### Maquette
 
 Retrouvez la maquette créée avec Figma :
-  
-  [Figma](https://www.figma.com/file/3BX4tZlm29DFlm7vz8gmxI/Portfolio?type=design&node-id=3%3A86&mode=design&t=kOlZGQMifEV2lhLg-1)
+
+[Figma](https://www.figma.com/file/3BX4tZlm29DFlm7vz8gmxI/Portfolio?type=design&node-id=3%3A86&mode=design&t=kOlZGQMifEV2lhLg-1)
 
 ### Technologies utilisées
-  
-  **React**
-  <br>
-  **React Router**
-  <br>
-  **Sass**
-  <br>
-  **Styled-components**
-  <br>
-  **Emailjs**
+
+**React**
+<br>
+**React Router**
+<br>
+**Sass**
+<br>
+**Styled-components**
+<br>
+**Emailjs**
 
 ## Installation
 

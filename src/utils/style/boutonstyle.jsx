@@ -7,10 +7,8 @@ const StyledButtonStyle = createGlobalStyle`
           props.isDarkMode ? '#A3DEE7' : '#4419FF'};
         border: none;
         border-radius: 1000px;
-        border-radius: 1000px;
         cursor: pointer;
-        height: 50px;  
-        letter-spacing: 1.3px;    
+        height: 50px;     
         margin-top: 10px; 
         transition: all 0.3s ease-in-out 0s;
         position: relative;
@@ -23,13 +21,10 @@ const StyledButtonStyle = createGlobalStyle`
         border-radius: 1000px;
         cursor: pointer;
         height: 50px;  
-        letter-spacing: 1.3px; 
-        margin-left: 170px;
         margin-top: 40px;
         transition: all 0.3s ease-in-out 0s;
         position: relative;
         width: 220px;  
-
     }
     .intro__desc-cv::before, 
     .error__button::before,

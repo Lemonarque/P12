@@ -3,7 +3,7 @@ import '../../sass/containers/_contact.scss'
 
 const Contact = () => {
   return (
-    <section className="contact">
+    <section id="contact" className="contact">
       <h2 className="contact__title">Contact</h2>
       <Form />
     </section>

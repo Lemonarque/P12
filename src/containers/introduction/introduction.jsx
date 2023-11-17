@@ -1,6 +1,6 @@
 import { useTheme } from '../../utils/hooks/index'
 import DownloadBtn from '../../components/downloadbtn/downloadbtn'
-import MaPhoto from '../../assets/photo/moi.jpg'
+import MaPhoto from '../../assets/photo/moi.webp'
 import GitHub from '../../assets/icones/github.png'
 import DarkGitHub from '../../assets/icones/darkgithub.png'
 import LinkedIn from '../../assets/icones/linkedin.png'
