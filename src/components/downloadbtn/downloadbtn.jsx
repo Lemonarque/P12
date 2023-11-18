@@ -7,19 +7,19 @@ const DownloadBtn = () => {
   return (
     <div>
       <ButtonStyle />
-      <button className="intro__desc-cv">
-        <a
-          className="theme-color"
+      <a
+          className="intro-desc cv theme-color"
           href={cv}
           target="blank"
           rel="noreferrer"
           aria-label="Télécharger mon CV"
           aria-roledescription="Document PDF"
         >
-          Télécharger mon CV
-          <img src={pdf} alt="Icône document PDF" />
-        </a>
-      </button>
+        <button className="intro__desc-cv theme-color">
+            Télécharger mon CV
+            <img src={pdf} alt="Icône document PDF" />
+        </button>
+      </a>
     </div>
   )
 }
