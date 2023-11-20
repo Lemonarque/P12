@@ -163,9 +163,20 @@
   },
   {
     "id": "project11",
-    "title": "Portfolio",
-    "description": "Mon dernier projet, celui sur lequel vous naviguez actuellement, mon site portfolio où j'exposer les différents projets sur lesquels j'ai travaillé.",
-    "cover": "",
+    "title": "Mon Portfolio",
+    "description": "Mon site portfolio, celui sur lequel vous naviguez actuellement,  où j'expose les différents projets sur lesquels j'ai travaillé.",
+    "cover": "../assets/projects/my-portfolio/cover.png",
+    "alt": "",
+    "tags": "",
+    "pictures": [],
+    "site": "",
+    "github": ""
+  }, 
+  {
+    "id": "project12",
+    "title": "À venir",
+    "description": "Prochain projet à venir...",
+    "cover": "../assets/projects/a-venir/cover.png",
     "alt": "",
     "tags": "",
     "pictures": [],

@@ -15,11 +15,11 @@ const Error = () => {
       />
       <p className="error_text">LA PAGE QUE VOUS DEMANDEZ N'EXISTE PAS...</p>
       <ButtonStyle />
-      <button className="error__button">
-        <a className="theme-color" href="/">
+      <a href="/">
+        <button className="error__button theme-color">
           Retourner à la page d'accueil
-        </a>
-      </button>
+        </button>
+      </a>
     </main>
   )
 }
