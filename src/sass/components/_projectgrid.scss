@@ -35,11 +35,10 @@
       }
       &-title {
         color: white;
-        font-family: 'Roboto Slab';
         text-transform: uppercase;
         position: absolute;
         top: 0;
-        left: 150px;
+        left: 170px;  
       }
     }
     &-back {
@@ -56,14 +55,12 @@
       width: 100%;
       transform: rotateY(180deg);
       &-title {
-        font-family: 'Roboto Slab';
         text-transform: uppercase;
         position: absolute;
         top: 20px;
         left: 150px;
       }
       &-desc {
-        letter-spacing: 2px;
         position: absolute;
         left: 20px;
         top: 120px;
@@ -71,7 +68,7 @@
       &-info {
         position: absolute;
         right: 20px;
-        top: 250px;
+        top: 280px;
       }
     }
   }

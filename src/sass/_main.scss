@@ -10,3 +10,14 @@ a {
 ul {
   list-style: none;
 }
+
+h1, h2, h3, li, button {
+  font-family: 'Roboto Slab', sans-serif;
+  letter-spacing: 1.2px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
