@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import Projects from '../../data/projects.json'
-import '../../sass/components/_project.scss'
+import '../../sass/components/_projectgrid.scss'
 
 const ProjectsGrid = () => {
   return (
@@ -21,7 +21,7 @@ const ProjectsGrid = () => {
                 <figcaption className="project__card-back">
                   <h3 className="project__card-back-title">{project.title}</h3>
                   <p className="project__card-back-desc">
-                    {project.description}
+                    {project.briefDescription}
                   </p>
                   <p className="project__card-back-info">En savoir plus...</p>
                 </figcaption>

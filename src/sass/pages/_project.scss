@@ -1,0 +1,38 @@
+.project {
+    &__header {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        &-arrow {
+            position: absolute;
+            left: 72px;
+            top: 168px;
+        }
+        &-title {
+            font-family: 'Roboto Slab';
+        }
+    }
+    &__section {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        margin-top: 30px;
+        width: 100%;
+        &-description {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            width: 50%;
+            &-links {
+                display: flex;
+                gap: 75px;
+            }
+        }
+        &-carrousel {
+            margin-top: 25px;
+            width: 35%;
+        }
+
+    }
+}

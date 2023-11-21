@@ -2,9 +2,12 @@
   {
     "id": "project1",
     "title": "Riding Cities",
-    "description": "Riding Cities est une association sportive qui promeut le skate en région parisienne. L'association souhaite améliorer son site internet.",
+    "briefDescription": "Riding Cities est une association sportive qui promeut le skate en région parisienne. L'association souhaite améliorer son site internet.",
     "cover": "../assets/projects/riding-cities/cover.webp",
     "alt": "Photo d'un skateboard",
+    "description": "Le projet 2 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage HTML au travers du site Internet de Riding Cities. ",
+    "mission": "Je rejoins l'agence Webonzaï pour un stage en tant que développeur junior. Romain, mon maître de stage, me demande d'actualiser la page Internet de Riding Cities en créant une nouvelle section appelée : Les Membres Fondateurs ; ainsi que la modification de la section existante des plannings en introduisant deux plannings : l'un pour les enfants et l'autre pour les adultes.",
+    "competences": "Intégrer des éléments sur une page web en utilisant les fondamentaux de HTML.", 
     "tags": ["Front-End", "HTML", "CSS"],
     "pictures": [
       "../assets/projects/riding-cities/mock0.png",
@@ -22,9 +25,12 @@
   {
     "id": "project2",
     "title": "Booki",
-    "description": "Booki est une start-up qui souhaite permettre aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.",
+    "briefDescription": "Booki est une start-up qui souhaite permettre aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.",
     "cover": "../assets/projects/booki/cover.webp",
     "alt": "Photo d'un hébergement du site de Booki",
+    "description": "",
+    "mission": "",
+    "competences": "", 
     "tags": ["Front-End", "HTML", "CSS", "Responsive"],
     "pictures": [
       "../assets/projects/booki/mock0.png",
@@ -42,7 +48,7 @@
   {
     "id": "project3",
     "title": "Ohmyfood",
-    "description": "Ohmyfood est une jeune start-up qui souhaite s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite faire sa place à Paris.",
+    "briefDescription": "Ohmyfood est une jeune start-up qui souhaite s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite faire sa place à Paris.",
     "cover": "../assets/projects/ohmyfood/cover.webp",
     "alt": "Photo d'un plat d'un restaurant",
     "tags": ["Front-End", "HTML", "Sass", "Responsive"],
@@ -62,7 +68,7 @@
   {
     "id": "project4",
     "title": "Print It",
-    "description": "Print It est une petite entreprise familiale. Elle souhaite dynamiser son site internet en y ajoutant un carrousel.",
+    "briefDescription": "Print It est une petite entreprise familiale. Elle souhaite dynamiser son site internet en y ajoutant un carrousel.",
     "cover": "../assets/projects/print-it/cover.webp",
     "alt": "Photo d'imagerie",
     "tags": ["Front-End", "HTML", "CSS", "JavaScript"],
@@ -82,7 +88,7 @@
   {
     "id": "project5",
     "title": "Portfolio - Sophie Bluel",
-    "description": "Sophie Bluel est une architecte d'intérieur qui souhaite mettre en avant son travail avec la création d'un site portfolio où elle pourra elle-même ajouter ses travaux en se connectant à son interface administrateur.",
+    "briefDescription": "Sophie Bluel est une architecte d'intérieur qui souhaite mettre en avant son travail avec la création d'un site portfolio où elle pourra elle-même ajouter ses travaux en se connectant à son interface administrateur.",
     "cover": "../assets/projects/portfolio-sophie-bluel/cover.png",
     "alt": "Photo de rénovation d'un bar",
     "tags": [
@@ -109,7 +115,7 @@
   {
     "id": "project6",
     "title": "Kasa",
-    "description": "Kasa est dans le métier de la location d'appartements entre particuliers depuis maintenant 10 ans, et souhaite aujourd'hui développer une nouvelle plateforme web avec React.",
+    "briefDescription": "Kasa est dans le métier de la location d'appartements entre particuliers depuis maintenant 10 ans, et souhaite aujourd'hui développer une nouvelle plateforme web avec React.",
     "cover": "../assets/projects/kasa/cover.png",
     "alt": "",
     "tags": "",
@@ -120,7 +126,7 @@
   {
     "id": "project7",
     "title": "Menu Maker",
-    "description": "Je rejoins l'agence Webgencia qui me confie une mission un peu particulière : planifier le développement du prochain site de notre client Qwenta.",
+    "briefDescription": "Je rejoins l'agence Webgencia qui me confie une mission un peu particulière : planifier le développement du prochain site de notre client Qwenta.",
     "cover": "../assets/projects/menu-maker/cover.png",
     "alt": "",
     "tags": "",
@@ -131,7 +137,7 @@
   {
     "id": "project8",
     "title": "Nina Carducci",
-    "description": "Je propose mes services d'optimisation SEO à plusieurs clients. Et Nina Carducci, photographe expérimentée basée à Bordeaux accepte ma proposition d'optimisation de son site.",
+    "briefDescription": "Je propose mes services d'optimisation SEO à plusieurs clients. Et Nina Carducci, photographe expérimentée basée à Bordeaux accepte ma proposition d'optimisation de son site.",
     "cover": "../assets/projects/nina-carducci/cover.png",
     "alt": "",
     "tags": "",
@@ -142,7 +148,7 @@
   {
     "id": "project9",
     "title": "724 events",
-    "description": "L'agence d'événementielle 724events me contacte pour son site vitrine afin de reprendre le développement et débugger le travail déjà mis en place par un autre développeur.",
+    "briefDescription": "L'agence d'événementielle 724events me contacte pour son site vitrine afin de reprendre le développement et débugger le travail déjà mis en place par un autre développeur.",
     "cover": "../assets/projects/724events/cover.png",
     "alt": "",
     "tags": "",
@@ -153,7 +159,7 @@
   {
     "id": "project10",
     "title": "Argent Bank",
-    "description": "J'intègre Argent Bank, une nouvelle banque en ligne qui souhaite que j'implémente le front-end de son application en utilisant React.",
+    "briefDescription": "J'intègre Argent Bank, une nouvelle banque en ligne qui souhaite que j'implémente le front-end de son application en utilisant React.",
     "cover": "../assets/projects/argent-bank/cover.webp",
     "alt": "",
     "tags": "",
@@ -164,7 +170,7 @@
   {
     "id": "project11",
     "title": "Mon Portfolio",
-    "description": "Mon site portfolio, celui sur lequel vous naviguez actuellement,  où j'expose les différents projets sur lesquels j'ai travaillé.",
+    "briefDescription": "Mon site portfolio, celui sur lequel vous naviguez actuellement,  où j'expose les différents projets sur lesquels j'ai travaillé.",
     "cover": "../assets/projects/my-portfolio/cover.png",
     "alt": "",
     "tags": "",
@@ -175,7 +181,7 @@
   {
     "id": "project12",
     "title": "À venir",
-    "description": "Prochain projet à venir...",
+    "briefDescription": "Prochain projet à venir...",
     "cover": "../assets/projects/a-venir/cover.png",
     "alt": "",
     "tags": "",

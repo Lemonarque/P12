@@ -8,6 +8,7 @@ const Error = () => {
   const { theme } = useTheme()
   return (
     <main className="error">
+      <h1 className='error__title'>Page d'erreur</h1>
       <img
         className="error__image"
         src={theme === 'dark' ? DarkError : LightError}

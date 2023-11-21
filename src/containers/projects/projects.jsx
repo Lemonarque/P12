@@ -1,4 +1,4 @@
-import ProjectsGrid from '../../components/project/project'
+import ProjectsGrid from '../../components/project/projectgrid'
 import '../../sass/containers/_projects.scss'
 
 const Projects = () => {

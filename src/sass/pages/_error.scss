@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   margin-top: 30px;
+  &__title {display: none;}
   &__image {
     height: auto;
     width: 45%;
