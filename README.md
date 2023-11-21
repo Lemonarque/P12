@@ -22,6 +22,8 @@ Retrouvez la maquette créée avec Figma :
 **Styled-components**
 <br>
 **Emailjs**
+<br>
+**React-responsive-carousel**
 
 ## Installation
 
