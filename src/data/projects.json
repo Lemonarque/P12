@@ -82,21 +82,21 @@
     "briefDescription": "Print It est une petite entreprise familiale. Elle souhaite dynamiser son site internet en y ajoutant un carrousel.",
     "cover": "../assets/projects/print-it/cover.webp",
     "alt": "Photo d'imagerie",
-    "description": "",
-    "mission": "",
+    "description": "Le projet 5 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage JavaScript au travers du site de Print It.",
+    "mission": "Je débute en tant que développeur front-end en freelance, et je décroche l'offre qui consiste à dynamiser le site Internet statique de Print It. Le directeur, Lucien Gerodo, me demande alors de réaliser un carrousel dynamique.",
     "competences": [
-      
+      "Programmer en utilisant les fondamentaux de JavaScript"
     ],
-    "tags": ["Front-End", "HTML", "CSS", "JavaScript"],
+    "tags": ["HTML", "CSS", "JavaScript", "VSCode"],
     "pictures": [
-      "../assets/projects/print-it/mock0.png",
-      "../assets/projects/print-it/mock1.png",
-      "../assets/projects/print-it/mock2.png",
-      "../assets/projects/print-it/mock3.png",
-      "../assets/projects/print-it/mock4.png",
-      "../assets/projects/print-it/mock5.png",
-      "../assets/projects/print-it/mock6.png",
-      "../assets/projects/print-it/mock7.png"
+      "../assets/projects/print-it/mock0.webp",
+      "../assets/projects/print-it/mock1.webp",
+      "../assets/projects/print-it/mock2.webp",
+      "../assets/projects/print-it/mock3.webp",
+      "../assets/projects/print-it/mock4.webp",
+      "../assets/projects/print-it/mock5.webp",
+      "../assets/projects/print-it/mock6.webp",
+      "../assets/projects/print-it/mock7.webp"
     ],
     "site": "https://matthieu83600.github.io/Print-It/",
     "github": "https://github.com/Matthieu83600/Print-It"
