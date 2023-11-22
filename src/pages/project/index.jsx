@@ -28,7 +28,11 @@ const Project = () => {
           <h3><u>La mission :</u></h3>
           <p>{project.mission}</p>
           <h3><u>Les compétences acquises :</u></h3>
-          <p>{project.competences}</p>
+          {project.competences.map((competence, index) =>(
+            <li key={index} className='project__section-description-competences'>
+              {competence}
+            </li>
+          ))}
           < Tag />
           <h3>Retrouvez le code source et le site dans les liens ci-dessous :</h3>
           <div className='project__section-description-links'>

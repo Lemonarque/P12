@@ -24,14 +24,22 @@
             flex-direction: column;
             gap: 25px;
             width: 50%;
+            &-competences {
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+                margin-left: 15px;
+            }
             &-links {
                 display: flex;
                 gap: 75px;
             }
         }
         &-carrousel {
-            margin-top: 25px;
+            margin-top: 55px;
             width: 35%;
+            &img {
+                max-height: 400px;
+            }
         }
 
     }

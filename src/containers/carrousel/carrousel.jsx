@@ -1,7 +1,8 @@
 import { useParams } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Projects from '../../data/projects.json';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "../../sass/containers/_carrousel.scss"
 
 const Carrousel = () => {
     const { id } = useParams()
@@ -18,7 +19,7 @@ const Carrousel = () => {
                 showArrows={false}   
                 showIndicators={false}           
                 showStatus={false}
-                thumbWidth={80}
+                showThumbs={false}
             >
                 {project.pictures.map((image, index) => (
                     <img key={index} src={image} alt="Vues du site internet du projet"/>
