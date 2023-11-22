@@ -35,7 +35,7 @@ const Project = () => {
               </li>
             ))}
             < Tag />
-            <h3>Retrouvez le code source dans le lien ci-dessous :</h3>
+            <h3>Retrouvez le travail réalisé dans le lien ci-dessous :</h3>
             <div className='project__section-description-links'>
               <ButtonStyle />
               <a href={project.github} target='blank'>
@@ -73,7 +73,7 @@ const Project = () => {
               </li>
             ))}
             < Tag />
-            <h3>Retrouvez le code source et le site dans les liens ci-dessous :</h3>
+            <h3>Retrouvez le travail réalisé et la démonstration du site dans les liens ci-dessous :</h3>
             <div className='project__section-description-links'>
               <ButtonStyle />
               <a href={project.github} target='blank'>

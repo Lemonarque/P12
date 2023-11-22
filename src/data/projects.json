@@ -130,6 +130,33 @@
   },
   {
     "id": "project6",
+    "title": "Menu Maker",
+    "briefDescription": "Je rejoins l'agence Webgencia qui me confie une mission un peu particulière : planifier le développement du prochain site de notre client Qwenta.",
+    "cover": "../assets/projects/menu-maker/cover.webp",
+    "alt": "Logo du site Menu Maker by Qwenta",
+    "description": "Le projet 7 du parcours Intégrateur Web d'OpenClassrooms est différent des autres projets réalisés, il s'agit de planifier le développement du prochain site de notre client Qwenta.",
+    "mission": "Je suis développeur front-end dans l'agence de Webgencia. Soufiane, le product owner, me confie une mission différente de d'habitude. Il s'agit de mener, préparer et planifier le projet de développement d'un site d'un de nos clients.",
+    "competences": [
+      "Mettre en place une méthode de veille technologique",
+      "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
+      "Découper une fonctionnalités en tâches pour préparer le développement",
+      "Suivre le déroulement du projet grâce à un outil de gestion de projet",
+      "Présenter la solution technique"
+    ],
+    "tags": ["Gestion de projet", "Méthode agile", "Veille technique"],
+    "pictures": [
+      "../assets/projects/menu-maker/mock0.webp",
+      "../assets/projects/menu-maker/mock1.webp",
+      "../assets/projects/menu-maker/mock2.webp",
+      "../assets/projects/menu-maker/mock3.webp",
+      "../assets/projects/menu-maker/mock4.webp",
+      "../assets/projects/menu-maker/mock5.webp",
+      "../assets/projects/menu-maker/mock6.webp"
+    ],
+    "github": "https://github.com/Matthieu83600/Menu-Maker"
+  },
+  {
+    "id": "project7",
     "title": "Kasa",
     "briefDescription": "Kasa est dans le métier de la location d'appartements entre particuliers depuis maintenant 10 ans, et souhaite aujourd'hui développer une nouvelle plateforme web avec React.",
     "cover": "../assets/projects/kasa/cover.png",
@@ -139,23 +166,7 @@
     "competences": [
       
     ],
-    "tags": "",
-    "pictures": [],
-    "site": "",
-    "github": ""
-  },
-  {
-    "id": "project7",
-    "title": "Menu Maker",
-    "briefDescription": "Je rejoins l'agence Webgencia qui me confie une mission un peu particulière : planifier le développement du prochain site de notre client Qwenta.",
-    "cover": "../assets/projects/menu-maker/cover.png",
-    "alt": "",
-    "description": "",
-    "mission": "",
-    "competences": [
-      
-    ],
-    "tags": "",
+    "tags": [],
     "pictures": [],
     "site": "",
     "github": ""
