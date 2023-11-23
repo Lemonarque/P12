@@ -164,10 +164,10 @@
     "description": "Le projet 8 du parcours Intégrateur Web d'OpenClassrooms consiste à développer la nouvelle plateforme web de Kasa en utilisant React.",
     "mission": "Kasa me recrute en tant que développeur front-end en freelance. Laura, la cheffe technique, me demande de mettre en place la nouvelle plateforme web en utilisant React, grâce aux maquettes créées par Paul le designer de l'équipe.",
     "competences": [
-      "Initialiser une application avec Create React App",
-      "Configurer la navigation entre les pages de l'application avec React Router",
-      "Développer des éléments de l'interface d'un site web grâce à des composants React",
-      "Développer une interface web avec Sass"
+      "Initialiser une application avec Create React App.",
+      "Configurer la navigation entre les pages de l'application avec React Router.",
+      "Développer des éléments de l'interface d'un site web grâce à des composants React.",
+      "Développer une interface web avec Sass."
     ],
     "tags": ["React", "React-Router", "Sass", "Responsive", "VSCode", "Figma"],
     "pictures": [
@@ -187,17 +187,26 @@
     "id": "project8",
     "title": "Nina Carducci",
     "briefDescription": "Je propose mes services d'optimisation SEO à plusieurs clients. Et Nina Carducci, photographe expérimentée basée à Bordeaux accepte ma proposition d'optimisation de son site.",
-    "cover": "../assets/projects/nina-carducci/cover.png",
-    "alt": "",
-    "description": "",
-    "mission": "",
+    "cover": "../assets/projects/nina-carducci/cover.webp",
+    "alt": "Photo de mariage prise par Nina Carducci",
+    "description": "Le projet 9 du parcours Intégrateur Web d'OpenClassrooms consiste à améliorer les performances et le référencement naturel du site d'un client.",
+    "mission": "Je suis développeur front-end en freelance, et je me décide à proposer mes services d'optimisation SEO à de nouveaux clients. Je prends contact avec les administrateurs de divers sites pouvant être optimisés. Nina Carducci, photographe professionnelle à Bordeaux, accepte ma proposition d'optimisation de son site. Ma mission est donc d'optimiser son site tant sur les performances que sur le SEO. Et de mettre en avant cette optimisation en lui fournissant un rapport d'optimisation, lui présentant toutes les actions effectuées ainsi que leur impact.",
     "competences": [
-      
+      "Optimiser la performance d'un site web."
     ],
-    "tags": "",
-    "pictures": [],
-    "site": "",
-    "github": ""
+    "tags": ["HTML", "CSS", "JavaScript", "Responsive", "SEO"],
+    "pictures": [
+      "../assets/projects/nina-carducci/mock0.webp",
+      "../assets/projects/nina-carducci/mock1.webp",
+      "../assets/projects/nina-carducci/mock2.webp",
+      "../assets/projects/nina-carducci/mock3.webp",
+      "../assets/projects/nina-carducci/mock4.webp",
+      "../assets/projects/nina-carducci/mock5.webp",
+      "../assets/projects/nina-carducci/mock6.webp",
+      "../assets/projects/nina-carducci/mock7.webp"
+    ],
+    "site": "https://matthieu83600.github.io/Nina-Carducci/",
+    "github": "https://github.com/Matthieu83600/Nina-Carducci"
   },
   {
     "id": "project9",
