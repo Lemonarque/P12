@@ -12,6 +12,10 @@ const StyledGlobalStyle = createGlobalStyle`
     a {
       color: ${(props) => (props.isDarkMode ? 'white' : 'black')}; 
     }
+    .project__card-front-title {
+      color: ${(props) =>
+        props.isDarkMode ? '#FFFFFF' : '#FFFFFF' };
+    }
     .project__card-back {
       background-color: ${(props) =>
         props.isDarkMode ? '#595959' : '#FFFFFF'};

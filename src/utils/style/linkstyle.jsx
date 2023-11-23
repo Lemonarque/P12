@@ -4,7 +4,7 @@ import { useTheme } from '../hooks'
 const StyledLinkStyle = createGlobalStyle`
     .link-theme::after {
         border-bottom: ${(props) =>
-          props.isDarkMode ? '4px solid #A3DEE7' : '4px solid #4419FF'};
+          props.isDarkMode ? '4px solid #A3DEE7' : '4px solid #2200B8'};
         content: '';
         display: block;
         transform: scaleX(0);

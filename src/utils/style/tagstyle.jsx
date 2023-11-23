@@ -4,7 +4,7 @@ import { useTheme } from '../hooks'
 const StyledTagStyle = createGlobalStyle`
 .tag {
     background-color: ${(props) =>
-        props.isDarkMode ? '#A3DEE7' : '#4419FF'};
+        props.isDarkMode ? '#A3DEE7' : '#2200B8'};
     border: none;
     border-radius: 1000px;    
     padding: 6px 12px
