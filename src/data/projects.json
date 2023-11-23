@@ -239,32 +239,47 @@
     "title": "Argent Bank",
     "briefDescription": "J'intègre Argent Bank, une nouvelle banque en ligne qui souhaite que j'implémente le front-end de son application en utilisant React.",
     "cover": "../assets/projects/argent-bank/cover.webp",
-    "alt": "",
-    "description": "",
-    "mission": "",
+    "alt": "Bannière du site",
+    "description": "Le projet 11 du parcours Intégrateur Web d'OpenClassrooms consiste à implémenter le front-end d'une application bancaire : Argent Bank en utilisant React.",
+    "mission": "J'intègre Argent Bank comme développeur front-end. Avery Moreau, chef technique, me confie la mission d'implémenter le front-end de notre application et le tableau de bord de l'utilisateur en communiquant avec l'API.",
     "competences": [
-      
+      "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front.",
+      "Configurer des routes API pour la communication client / serveur.",
+      "Afficher les données du back end sur l'interface via des appels API."
     ],
-    "tags": "",
-    "pictures": [],
-    "site": "",
-    "github": ""
+    "tags": ["React", "React-Router", "Redux", "Sass", "API", "Swagger", "Responsive"],
+    "pictures": [
+      "../assets/projects/argent-bank/mock0.webp",
+      "../assets/projects/argent-bank/mock1.webp",
+      "../assets/projects/argent-bank/mock2.webp",
+      "../assets/projects/argent-bank/mock3.webp",
+      "../assets/projects/argent-bank/mock4.webp",
+      "../assets/projects/argent-bank/mock5.webp",
+      "../assets/projects/argent-bank/mock6.webp",
+      "../assets/projects/argent-bank/mock7.webp",
+      "../assets/projects/argent-bank/mock8.webp",
+      "../assets/projects/argent-bank/mock9.webp"
+    ],
+    "site": "https://matthieu83600-argent-bank-front-end.vercel.app/",
+    "github": "https://github.com/Matthieu83600/ArgentBank-FrontEnd"
   },
   {
     "id": "project11",
     "title": "Mon Portfolio",
     "briefDescription": "Mon site portfolio, celui sur lequel vous naviguez actuellement,  où j'expose les différents projets sur lesquels j'ai travaillé.",
     "cover": "../assets/projects/my-portfolio/cover.png",
-    "alt": "",
+    "alt": "Logo de mon site",
     "description": "",
     "mission": "",
     "competences": [
-      
+      "Déployer un site statique en ligne."
     ],
-    "tags": "",
-    "pictures": [],
+    "tags": ["React", "React-Router", "Sass", "Responsive"],
+    "pictures": [
+
+    ],
     "site": "",
-    "github": ""
+    "github": "https://github.com/Matthieu83600/Portfolio"
   }, 
   {
     "id": "project12",
@@ -277,7 +292,7 @@
     "competences": [
       
     ],
-    "tags": "",
+    "tags": [""],
     "pictures": [],
     "site": "",
     "github": ""
