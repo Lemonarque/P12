@@ -212,17 +212,27 @@
     "id": "project9",
     "title": "724 events",
     "briefDescription": "L'agence d'événementielle 724events me contacte pour son site vitrine afin de reprendre le développement et débugger le travail déjà mis en place par un autre développeur.",
-    "cover": "../assets/projects/724events/cover.png",
-    "alt": "",
-    "description": "",
-    "mission": "",
+    "cover": "../assets/projects/724events/cover.webp",
+    "alt": "Conférence d'un événement de 724events",
+    "description": "Le projet 10 du parcours Intégrateur Web consiste à débugger le site d'une agence d'événementiel appelée 724events.",
+    "mission": "Je suis développeur front-end en freelance et l'agence 724events me contacte. La mission confiée par Jean-Baptiste, le directeur marketing, est la suivante : débugger le code du site déjà mis en place par un autre développeur qui a dû arrêté le développement, mettre en place des tests unitaires et fonctionnels ainsi que la rédaction d'un cahier de recette comprenant les différents scénarios possibles pour tester le site.",
     "competences": [
-      
+      "Débugger un site web grâce aux Chrome DevTools.",
+      "Rédiger un cahier de recette pour tester un site."
     ],
-    "tags": "",
-    "pictures": [],
-    "site": "",
-    "github": ""
+    "tags": ["React", "Tests", "Debug", "Chrome DevTools"],
+    "pictures": [
+      "../assets/projects/724events/mock0.webp",
+      "../assets/projects/724events/mock1.webp",
+      "../assets/projects/724events/mock2.webp",
+      "../assets/projects/724events/mock3.webp",
+      "../assets/projects/724events/mock4.webp",
+      "../assets/projects/724events/mock5.webp",
+      "../assets/projects/724events/mock6.webp",
+      "../assets/projects/724events/mock7.webp"
+    ],
+    "site": "https://724events-matthieubonjour.vercel.app/",
+    "github": "https://github.com/Matthieu83600/724events"
   },
   {
     "id": "project10",
