@@ -159,17 +159,29 @@
     "id": "project7",
     "title": "Kasa",
     "briefDescription": "Kasa est dans le métier de la location d'appartements entre particuliers depuis maintenant 10 ans, et souhaite aujourd'hui développer une nouvelle plateforme web avec React.",
-    "cover": "../assets/projects/kasa/cover.png",
-    "alt": "",
-    "description": "",
-    "mission": "",
+    "cover": "../assets/projects/kasa/cover.webp",
+    "alt": "Logo de Kasa",
+    "description": "Le projet 8 du parcours Intégrateur Web d'OpenClassrooms consiste à développer la nouvelle plateforme web de Kasa en utilisant React.",
+    "mission": "Kasa me recrute en tant que développeur front-end en freelance. Laura, la cheffe technique, me demande de mettre en place la nouvelle plateforme web en utilisant React, grâce aux maquettes créées par Paul le designer de l'équipe.",
     "competences": [
-      
+      "Initialiser une application avec Create React App",
+      "Configurer la navigation entre les pages de l'application avec React Router",
+      "Développer des éléments de l'interface d'un site web grâce à des composants React",
+      "Développer une interface web avec Sass"
     ],
-    "tags": [],
-    "pictures": [],
-    "site": "",
-    "github": ""
+    "tags": ["React", "React-Router", "Sass", "Responsive", "VSCode", "Figma"],
+    "pictures": [
+      "../assets/projects/kasa/mock0.webp",
+      "../assets/projects/kasa/mock1.webp",
+      "../assets/projects/kasa/mock2.webp",
+      "../assets/projects/kasa/mock3.webp",
+      "../assets/projects/kasa/mock4.webp",
+      "../assets/projects/kasa/mock5.webp",
+      "../assets/projects/kasa/mock6.webp",
+      "../assets/projects/kasa/mock7.webp"
+    ],
+    "site": "https://kasa-matthieubonjour.vercel.app/",
+    "github": "https://github.com/Matthieu83600/Kasa"
   },
   {
     "id": "project8",
