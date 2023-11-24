@@ -1,8 +1,10 @@
+@import '../breakpoint';
+
 .intro {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
-  width: 100%;
+  margin-top: 50px;
+  width: 96%;
   &__title {
     display: none;
   }
@@ -10,12 +12,18 @@
     display: flex;
     flex-direction: column;
     gap: 35px;
-    width: 80%;
+    width: 60%;
     &-liens {
       display: flex;
       margin-top: 20px;
       & a {
         padding-right: 35px;
+        & img {
+          @include tablet {
+            height: 60px;
+            width: 60px;
+          }
+        }
       }
     }
   }
@@ -23,18 +31,25 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 40%;
+    gap: 35px;
+    width: 25%;
     & img {
       border-radius: 0 25px;
-      height: auto;
-      width: 330px;
+      max-height: auto;
+      max-width: 310px;
+      @include tablet {
+        max-width: 280px;
+      }
     }
     & h3 {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 700;
       letter-spacing: 1.5px;
       margin-top: 10px;
+      @include tablet {
+        font-size: 16px;
+        letter-spacing: 1.2px;
+      }
     }
   }
 }

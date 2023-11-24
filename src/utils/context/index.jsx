@@ -4,19 +4,17 @@ import { createGlobalStyle, ThemeProvider as StyledThemeProvider } from 'styled-
 const GlobalStyle = createGlobalStyle`
     body {
         background-color: ${(props) =>
-          props.theme.darkMode ? '#3a3a3a' : '#FAFAF2'};
+          props.theme.darkMode ? '#3a3a3a' : '#deded8'};
         color: ${(props) => (props.theme.darkMode ? 'white' : 'black')}; 
-        margin: 20px 80px;  
-        width: 90%;
     }
     a {
       color: ${(props) => (props.theme.darkMode ? 'white' : 'black')}; 
     }
-    .project__card-front-title {
+    .grid__project__card-front-title {
       color: ${(props) =>
         props.theme.darkMode ? '#FFFFFF' : '#FFFFFF' };
     }
-    .project__card-back {
+    .grid__project__card-back {
       background-color: ${(props) =>
         props.theme.darkMode ? '#595959' : '#FFFFFF'};
     }

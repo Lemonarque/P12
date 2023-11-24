@@ -104,7 +104,7 @@
   {
     "id": "project5",
     "title": "Portfolio - Sophie Bluel",
-    "briefDescription": "Sophie Bluel est une architecte d'intérieur qui souhaite mettre en avant son travail avec la création d'un site portfolio où elle pourra elle-même ajouter ses travaux en se connectant à son interface administrateur.",
+    "briefDescription": "Sophie Bluel est une architecte d'intérieur qui souhaite mettre en avant son travail avec un site portfolio où elle pourra elle-même les ajouter en se connectant à son interface administrateur.",
     "cover": "../assets/projects/portfolio-sophie-bluel/cover.webp",
     "alt": "Photo de rénovation d'un bar",
     "description": "Le projet 6 du parcours Intégrateur Web d'OpenClassrooms nous emmène sur la conception du site portfolio d'une architecte en utilisant JavaScript et en communiquant avec une API.",

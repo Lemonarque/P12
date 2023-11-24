@@ -1,10 +1,10 @@
 import ProjectsGrid from '../../components/project/projectgrid'
-import '../../sass/containers/_projects.scss'
+import '../../sass/containers/_projectshome.scss'
 
 const Projects = () => {
   return (
-    <section className="projects">
-      <h2 id="projets" className="projects__title">
+    <section className="home__projects">
+      <h2 id="projets" className="home__projects__title">
         Mes projets
       </h2>
       <ProjectsGrid />

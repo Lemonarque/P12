@@ -1,10 +1,18 @@
+@import '../../sass/breakpoint';
+
 .header__menu {
   margin-top: 20px;
   & ul {
     display: flex;
     gap: 30px;
+    @include tablet {
+      gap: 15px;
+    }
     & li {
       font-size: 20px;
+      @include tablet {
+        font-size: 18px;
+      }
     }
   }
 }

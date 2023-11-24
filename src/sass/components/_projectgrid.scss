@@ -1,14 +1,22 @@
-.project {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
+@import '../breakpoint';
+
+.grid__project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 50px;
+  @include tablet {
+    grid-template-columns: 1fr 1fr;
+  }
   &__card {
     border: none;
-    height: 323px;
+    height: 350px;
     perspective: 1000px;
-    width: 417px;
+    width: 100%;
+    @include tablet {
+      height: 300px;
+    }
     &-inner {
       position: relative;
       transition: transform 0.8s;
@@ -20,11 +28,14 @@
       border: none;
       border-bottom-left-radius: 25px;
       border-top-right-radius: 25px;
-      height: 323px;
+      height: 350px;
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
+      @include tablet {
+        height: 300px;
+      }
       &-img {
         border-bottom-left-radius: 25px;
         border-top-right-radius: 25px;
@@ -37,7 +48,7 @@
         text-transform: uppercase;
         position: absolute;
         top: 0;
-        left: 170px;  
+        left: 30%;  
       }
     }
     &-back {
@@ -47,17 +58,20 @@
       border: none;
       border-bottom-right-radius: 25px;
       border-top-left-radius: 25px;
-      height: 323px;
+      height: 350px;
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
+      @include tablet {
+        height: 300px;
+      }
       transform: rotateY(180deg);
       &-title {
         text-transform: uppercase;
         position: absolute;
         top: 20px;
-        left: 150px;
+        left: 30%;
       }
       &-desc {
         position: absolute;
@@ -67,11 +81,14 @@
       &-info {
         position: absolute;
         right: 20px;
-        top: 280px;
+        top: 320px;
+        @include tablet {
+          top: 250px;
+        }
       }
     }
   }
-  &__card:hover .project__card-inner {
+  &__card:hover .grid__project__card-inner {
     transform: rotateY(180deg);
   }
 }

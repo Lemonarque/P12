@@ -1,14 +1,19 @@
+@import '../breakpoint';
+
 .skills {
-  margin-top: 40px;
+  margin-top: 50px;
   width: 100%;
   &__title {
     font-size: 32px;
     text-align: center;
+    @include tablet {
+      font-size: 28px;
+    }
   }
   &__display {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 50px;
     width: 100%;
   }
   &__tools {
@@ -16,10 +21,13 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    width: 33%;
+    width: 35%;
     &-title {
       font-size: 24px;
       text-align: center;
+      @include tablet {
+        font-size: 20px;
+      }
     }
   }
   &__languages {
@@ -31,6 +39,9 @@
     &-title {
       font-size: 24px;
       text-align: center;
+      @include tablet {
+        font-size: 20px;
+      }
     }
   }
 }
