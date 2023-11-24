@@ -4,7 +4,7 @@ import { ReactComponent as Moon } from '../../assets/darkmode/moon.svg'
 import '../../sass/components/_darkmode.scss'
 
 const DarkMode = () => {
-  const { toggleTheme, theme } = useTheme()
+  const { darkMode, toggleDarkMode } = useTheme()
 
   return (
     <div className="header__darkmode">
@@ -12,8 +12,8 @@ const DarkMode = () => {
         className="header__darkmode-input"
         type="checkbox"
         id="darkmode-toggle"
-        onChange={toggleTheme}
-        defaultChecked={theme}
+        onChange={toggleDarkMode}
+        defaultChecked={darkMode}
       />
       <label
         className="header__darkmode-label"

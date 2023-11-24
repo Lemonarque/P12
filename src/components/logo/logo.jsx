@@ -4,12 +4,12 @@ import LogoMb from '../../assets/logo/logo.svg'
 import DarkLogoMb from '../../assets/logo/darklogo.svg'
 
 const Logo = () => {
-  const { theme } = useTheme()
+  const { darkMode } = useTheme()
   return (
     <div className="header__logo">
       <Link to="/">
         <img
-          src={theme === 'dark' ? DarkLogoMb : LogoMb}
+          src={darkMode ? DarkLogoMb : LogoMb}
           alt="Mon logo personnel"
         />
       </Link>

@@ -11,7 +11,7 @@ import ImageStyle from '../../utils/style/imagestyle'
 import '../../sass/containers/_introduction.scss'
 
 const Introduction = () => {
-  const { theme } = useTheme()
+  const { darkMode } = useTheme()
 
   return (
     <section className="intro">
@@ -42,7 +42,7 @@ const Introduction = () => {
         <div className="intro__desc-liens">
           <a href="https://github.com/Matthieu83600" target="blank">
             <img
-              src={theme === 'dark' ? DarkGitHub : GitHub}
+              src={darkMode ? DarkGitHub : GitHub}
               alt="Lien vers mon profil Github"
             />
           </a>
@@ -51,7 +51,7 @@ const Introduction = () => {
             target="blank"
           >
             <img
-              src={theme === 'dark' ? DarkLinkedIn : LinkedIn}
+              src={darkMode ? DarkLinkedIn : LinkedIn}
               alt="Lien vers mon profil LinkedIn"
             />
           </a>
@@ -60,7 +60,7 @@ const Introduction = () => {
             target="blank"
           >
             <img
-              src={theme === 'dark' ? DarkTwitter : Twitter}
+              src={darkMode ? DarkTwitter : Twitter}
               alt="Lien vers mon profil Twitter"
             />
           </a>

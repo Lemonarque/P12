@@ -9,7 +9,7 @@ import LightArrow from '../../assets/icones/lightarrow.svg';
 import '../../sass/pages/_project.scss';
 
 const Project = () => {
-  const { theme } = useTheme();
+  const { darkMode } = useTheme();
   const { id } = useParams();
   const project = Projects.find((project) => project.id === id);
 
@@ -18,7 +18,7 @@ const Project = () => {
       <main className='project'>
         <div className='project__header'>
           <a href='/'>
-            <img className='project__header-arrow' src={theme === 'dark' ? DarkArrow : LightArrow} alt='flèche de retour page home' />
+            <img className='project__header-arrow' src={darkMode ? DarkArrow : LightArrow} alt='flèche de retour page home' />
           </a>
           <h1 className='project__header-title'>{project.title}</h1>
         </div>
@@ -56,7 +56,7 @@ const Project = () => {
       <main className='project'>
         <div className='project__header'>
           <a href='/'>
-            <img className='project__header-arrow' src={theme === 'dark' ? DarkArrow : LightArrow} alt='flèche de retour page home' />
+            <img className='project__header-arrow' src={darkMode ? DarkArrow : LightArrow} alt='flèche de retour page home' />
           </a>
           <h1 className='project__header-title'>{project.title}</h1>
         </div>
