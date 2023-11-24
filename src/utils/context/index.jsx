@@ -39,12 +39,24 @@ export const ThemeProvider = ({ children }) => {
     })
   }
 
+  const handleBeforeUnload = () => {
+    // Supprimez l'entrée du localStorage lorsque la page est sur le point d'être fermée.
+    localStorage.removeItem('darkMode');
+  };
+
   useEffect(() => {
     // Appliquer le thème persistant au chargement de la page.
     const savedDarkMode = JSON.parse(localStorage.getItem('darkMode'));
     if (savedDarkMode !== null) {
       setDarkMode(savedDarkMode);
     }
+    // Ajoutez l'écouteur d'événements pour gérer le beforeunload.
+    window.addEventListener('beforeunload', handleBeforeUnload);
+
+    // Retirez l'écouteur d'événements lors du démontage du composant.
+    return () => {
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+    };
   }, []);
 
   return (
