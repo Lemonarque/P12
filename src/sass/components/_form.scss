@@ -1,3 +1,5 @@
+@import '../breakpoint';
+
 .container {
   align-items: center;
   display: flex;
@@ -31,6 +33,9 @@
     margin-bottom: 30px;
     margin-top: 20px;
     width: 40%;
+    @include mobile {
+      width: 80%;
+    }
     &__label {
       font-size: 18px;
       font-weight: 600;

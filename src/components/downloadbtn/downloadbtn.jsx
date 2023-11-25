@@ -5,10 +5,10 @@ import '../../sass/components/_buttonstyle.scss'
 
 const DownloadBtn = () => {
   return (
-    <div>
+    <div className='button-cv'>
       <ButtonStyle />
       <a
-          className="intro-desc cv theme-color"
+          className="intro-desc-cv theme-color"
           href={cv}
           target="blank"
           rel="noreferrer"

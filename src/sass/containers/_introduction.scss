@@ -5,6 +5,9 @@
   justify-content: space-between;
   margin-top: 50px;
   width: 96%;
+  @include mobile {
+    flex-direction: column;
+  }
   &__title {
     display: none;
   }
@@ -13,13 +16,26 @@
     flex-direction: column;
     gap: 35px;
     width: 60%;
+    @include mobile {
+      text-align: center;
+      width: 100%;
+    }
     &-liens {
+      align-items: center;
       display: flex;
       margin-top: 20px;
+      @include mobile {
+        justify-content: center;
+        margin-right: -35px;
+      }
       & a {
         padding-right: 35px;
         & img {
           @include tablet {
+            height: 60px;
+            width: 60px;
+          }
+          @include mobile {
             height: 60px;
             width: 60px;
           }
@@ -33,11 +49,18 @@
     flex-direction: column;
     gap: 35px;
     width: 25%;
+    @include mobile {
+      margin-top: 40px;
+      width: 100%;
+    }
     & img {
       border-radius: 0 25px;
       max-height: auto;
       max-width: 310px;
       @include tablet {
+        max-width: 280px;
+      }
+      @include mobile {
         max-width: 280px;
       }
     }

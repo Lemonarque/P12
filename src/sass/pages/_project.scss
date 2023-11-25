@@ -13,6 +13,11 @@
         justify-content: center;
         margin-top: 40px;
         width: 100%;
+        @include mobile {
+            flex-direction: column;
+            margin-top: 50px;
+            text-align: center;
+        }
         &-arrow {
             position: absolute;
             left: 72px;
@@ -20,6 +25,9 @@
             @include tablet {
                 left: 36px;
                 top: 123px;
+            }
+            @include mobile {
+                position: static;
             }
         }
         &-title {
@@ -38,6 +46,10 @@
             flex-direction: column;
             margin-bottom: 0;
         }
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+        }
         &-description {
             display: flex;
             flex-direction: column;
@@ -45,6 +57,10 @@
             width: 80%;
             @include tablet {
                 margin-bottom: 50px;
+                width: 100%;
+            }
+            @include mobile {
+                margin-bottom: 60px;
                 width: 100%;
             }
             &-competences {
@@ -58,6 +74,11 @@
             &-links {
                 display: flex;
                 gap: 75px;
+                @include mobile {
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 50px;
+                }
             }
         }
         &-carrousel {
