@@ -42,15 +42,17 @@ export const Form = () => {
         <p>Votre message a bien été envoyé.</p>
       </dialog>
       <form name="form" className="form" ref={form} onSubmit={handleSendEmail}>
-        <label className="form__label" htmlFor="lastname">
+        <label className="form__label" htmlFor="lastname" aria-label='lastname'>
           Nom
         </label>
         <input
           className="form__input"
           type="text"
           id="lastname"
+          aria-labelledby='lastname'
           name="lastname"
           placeholder="Votre nom"
+          aria-required="true"
           required
           onInvalid={(F) =>
             F.target.setCustomValidity('Veuillez entrer votre nom')
@@ -64,8 +66,10 @@ export const Form = () => {
           className="form__input"
           type="text"
           id="firstname"
+          aria-labelledby='firstname'
           name="firstname"
           placeholder="Votre prénom"
+          aria-required="true"
           required
           onInvalid={(F) =>
             F.target.setCustomValidity('Veuillez entrer votre prénom')
@@ -79,8 +83,10 @@ export const Form = () => {
           className="form__input"
           type="email"
           id="email"
+          aria-labelledby='email'
           name="email"
           placeholder="Votre email"
+          aria-required="true"
           required
           onInvalid={(F) =>
             F.target.setCustomValidity('Veuillez entrer votre adresse email')
@@ -93,8 +99,10 @@ export const Form = () => {
         <textarea
           className="form__textarea"
           id="message"
+          aria-labelledby='message'
           name="message"
           placeholder="Votre message"
+          aria-required="true"
           required
           onInvalid={(F) =>
             F.target.setCustomValidity('Veuillez entrer votre message')
@@ -103,7 +111,7 @@ export const Form = () => {
           rows="10"
         />
         <ButtonStyle />
-        <button className="form__button theme-color" type="submit">
+        <button className="form__button theme-color" aria-pressed="true" type="submit">
           Envoyer
         </button>
       </form>
