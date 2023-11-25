@@ -8,10 +8,10 @@
 }
 body {
   height: auto;
-  margin: 20px 5%;  
+  margin: 20px 5%;
   width: 90%;
   @include tablet {
-    margin: 20px 4%;  
+    margin: 20px 4%;
   }
   @include mobile {
     margin: 20px 6%;
@@ -25,7 +25,11 @@ ul {
   list-style: none;
 }
 
-h1, h2, h3, li, button {
+h1,
+h2,
+h3,
+li,
+button {
   font-family: 'Roboto Slab', sans-serif;
   letter-spacing: 1.2px;
 }

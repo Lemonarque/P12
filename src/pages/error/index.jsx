@@ -8,7 +8,7 @@ const Error = () => {
   const { darkMode } = useTheme()
   return (
     <main className="error">
-      <h1 className='error__title'>Page d'erreur</h1>
+      <h1 className="error__title">Page d'erreur</h1>
       <img
         className="error__image"
         src={darkMode ? DarkError : LightError}

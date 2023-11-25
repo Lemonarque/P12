@@ -16,14 +16,20 @@ const ProjectsGrid = () => {
                     src={project.cover}
                     alt={project.alt}
                   />
-                  <h3 className="grid__project__card-front-title">{project.title}</h3>
+                  <h3 className="grid__project__card-front-title">
+                    {project.title}
+                  </h3>
                 </div>
                 <figcaption className="grid__project__card-back">
-                  <h3 className="grid__project__card-back-title">{project.title}</h3>
+                  <h3 className="grid__project__card-back-title">
+                    {project.title}
+                  </h3>
                   <p className="grid__project__card-back-desc">
                     {project.briefDescription}
                   </p>
-                  <p className="grid__project__card-back-info">En savoir plus...</p>
+                  <p className="grid__project__card-back-info">
+                    En savoir plus...
+                  </p>
                 </figcaption>
               </div>
             </figure>

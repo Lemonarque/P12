@@ -6,7 +6,9 @@
   justify-content: center;
   margin-bottom: 50px;
   margin-top: 50px;
-  &__title {display: none;}
+  &__title {
+    display: none;
+  }
   &__image {
     height: auto;
     width: 55%;

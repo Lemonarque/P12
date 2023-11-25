@@ -31,7 +31,9 @@ const StyledButtonStyle = createGlobalStyle`
         border: ${(props) =>
           props.theme.darkMode ? '6px solid #A3DEE7' : '6px solid #2200B8'};
         box-shadow: ${(props) =>
-          props.theme.darkMode ? '0 0 60px #a3dee7a3' : '0 0 60px #2200B8A3'} ;    
+          props.theme.darkMode
+            ? '0 0 60px #a3dee7a3'
+            : '0 0 60px #2200B8A3'} ;    
     }
     .intro__desc-cv::after, .error__button::after,
     .form__button::after, .project__button::after  {

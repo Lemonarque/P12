@@ -7,7 +7,9 @@
     "alt": "Photo d'un skateboard",
     "description": "Le projet 2 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage HTML au travers du site Internet de Riding Cities. ",
     "mission": "Je rejoins l'agence Webonzaï pour un stage en tant que développeur junior. Romain, mon maître de stage, me demande d'actualiser la page Internet de Riding Cities en créant une nouvelle section appelée : Les Membres Fondateurs ; ainsi que la modification de la section existante des plannings en introduisant deux plannings : l'un pour les enfants et l'autre pour les adultes. Et, ainsi que la mise en place du CSS existant sur les nouveaux éléments.",
-    "competences": ["Intégrer des éléments sur une page web en utilisant les fondamentaux de HTML."],
+    "competences": [
+      "Intégrer des éléments sur une page web en utilisant les fondamentaux de HTML."
+    ],
     "tags": ["HTML", "CSS"],
     "pictures": [
       "../assets/projects/riding-cities/mock0.webp",
@@ -34,7 +36,7 @@
       "Installer un environnement de développement front-end",
       "Implémenter une interface responsive avec HTML et CSS.",
       "Intégrer du contenu conformément à une maquette avec HTML et CSS."
-    ], 
+    ],
     "tags": ["HTML", "CSS", "Responsive", "VSCode", "Figma"],
     "pictures": [
       "../assets/projects/booki/mock0.webp",
@@ -84,9 +86,7 @@
     "alt": "Photo d'imagerie",
     "description": "Le projet 5 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage JavaScript au travers du site de Print It.",
     "mission": "Je débute en tant que développeur front-end en freelance, et je décroche l'offre qui consiste à dynamiser le site Internet statique de Print It. Le directeur, Lucien Gerodo, me demande alors de réaliser un carrousel dynamique.",
-    "competences": [
-      "Programmer en utilisant les fondamentaux de JavaScript"
-    ],
+    "competences": ["Programmer en utilisant les fondamentaux de JavaScript"],
     "tags": ["HTML", "CSS", "JavaScript", "VSCode"],
     "pictures": [
       "../assets/projects/print-it/mock0.webp",
@@ -113,7 +113,6 @@
       "Manipuler les éléments du DOM avec JavaScript.",
       "Gérer les événements utilisateurs avec JavaScript.",
       "Récupérer les données utilisateurs dans le JavaScript via des formulaires."
-      
     ],
     "tags": ["HTML", "CSS", "JavaScript", "Figma", "API", "Swagger"],
     "pictures": [
@@ -191,9 +190,7 @@
     "alt": "Photo de mariage prise par Nina Carducci",
     "description": "Le projet 9 du parcours Intégrateur Web d'OpenClassrooms consiste à améliorer les performances et le référencement naturel du site d'un client.",
     "mission": "Je suis développeur front-end en freelance, et je me décide à proposer mes services d'optimisation SEO à de nouveaux clients. Je prends contact avec les administrateurs de divers sites pouvant être optimisés. Nina Carducci, photographe professionnelle à Bordeaux, accepte ma proposition d'optimisation de son site. Ma mission est donc d'optimiser son site tant sur les performances que sur le SEO. Et de mettre en avant cette optimisation en lui fournissant un rapport d'optimisation, lui présentant toutes les actions effectuées ainsi que leur impact.",
-    "competences": [
-      "Optimiser la performance d'un site web."
-    ],
+    "competences": ["Optimiser la performance d'un site web."],
     "tags": ["HTML", "CSS", "JavaScript", "Responsive", "SEO"],
     "pictures": [
       "../assets/projects/nina-carducci/mock0.webp",
@@ -247,7 +244,15 @@
       "Configurer des routes API pour la communication client / serveur.",
       "Afficher les données du back end sur l'interface via des appels API."
     ],
-    "tags": ["React", "React-Router", "Redux", "Sass", "API", "Swagger", "Responsive"],
+    "tags": [
+      "React",
+      "React-Router",
+      "Redux",
+      "Sass",
+      "API",
+      "Swagger",
+      "Responsive"
+    ],
     "pictures": [
       "../assets/projects/argent-bank/mock0.webp",
       "../assets/projects/argent-bank/mock1.webp",
@@ -271,16 +276,12 @@
     "alt": "Logo de mon site",
     "description": "",
     "mission": "",
-    "competences": [
-      "Déployer un site statique en ligne."
-    ],
+    "competences": ["Déployer un site statique en ligne."],
     "tags": ["React", "React-Router", "Sass", "Responsive"],
-    "pictures": [
-
-    ],
+    "pictures": [],
     "site": "",
     "github": "https://github.com/Matthieu83600/Portfolio"
-  }, 
+  },
   {
     "id": "project12",
     "title": "À venir",
@@ -289,9 +290,7 @@
     "alt": "",
     "description": "",
     "mission": "",
-    "competences": [
-      
-    ],
+    "competences": [],
     "tags": [""],
     "pictures": [],
     "site": "",
