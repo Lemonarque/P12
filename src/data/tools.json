@@ -52,5 +52,11 @@
     "title": "SEO",
     "image": "../assets/skills/tools/seo.svg",
     "alt": "Icône SEO"
+  },
+  {
+    "id": "tools10",
+    "title": "ChatGPT",
+    "image": "../assets/skills/tools/chatgpt-mark.svg",
+    "alt": "Icône ChatGPT"
   }
 ]

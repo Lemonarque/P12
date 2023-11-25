@@ -19,32 +19,38 @@
   },
   {
     "id": "language4",
+    "title": "Bootstrap",
+    "image": "../assets/skills/languages/bootstrap.svg",
+    "alt": "Icône Bootstrap"
+  },
+  {
+    "id": "language5",
     "title": "JavaScript",
     "image": "../assets/skills/languages/javascript.svg",
     "alt": "Icône JavaScript"
   },
   {
-    "id": "language5",
+    "id": "language6",
+    "title": "jQuery",
+    "image": "../assets/skills/languages/jquery.svg",
+    "alt": "Icône jQuery"
+  },
+  {
+    "id": "language7",
     "title": "React",
     "image": "../assets/skills/languages/react.svg",
     "alt": "Icône React"
   },
   {
-    "id": "language6",
+    "id": "language8",
     "title": "Redux",
     "image": "../assets/skills/languages/redux.svg",
     "alt": "Icône Redux"
   },
   {
-    "id": "language7",
+    "id": "language9",
     "title": "React-Router",
     "image": "../assets/skills/languages/react-router.svg",
     "alt": "Icône React-Router"
-  },
-  {
-    "id": "language8",
-    "title": "Bootstrap",
-    "image": "../assets/skills/languages/bootstrap.svg",
-    "alt": "Icône Bootstrap"
   }
 ]
