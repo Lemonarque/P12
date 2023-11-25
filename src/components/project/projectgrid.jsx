@@ -1,13 +1,18 @@
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Projects from '../../data/projects.json'
 import '../../sass/components/_projectgrid.scss'
 
 const ProjectsGrid = () => {
+  // Gère le problème de la position en milieu de page de la page Home vers la page du projet
+  const handleClick = () => {
+    // Remonter vers le haut avant la navigation
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="grid__project">
       {Projects &&
         Projects.map((project) => (
-          <NavLink key={project.id} to={`/project/${project.id}`}>
+          <Link key={project.id} to={`/project/${project.id}`} onClick={handleClick}>
             <figure className="grid__project__card" key={project.id}>
               <div className="grid__project__card-inner">
                 <div className="grid__project__card-front">
@@ -33,7 +38,7 @@ const ProjectsGrid = () => {
                 </figcaption>
               </div>
             </figure>
-          </NavLink>
+          </Link>
         ))}
     </div>
   )
