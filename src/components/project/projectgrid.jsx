@@ -6,13 +6,17 @@ const ProjectsGrid = () => {
   // Gère le problème de la position en milieu de page de la page Home vers la page du projet
   const handleClick = () => {
     // Remonter vers le haut avant la navigation
-    window.scrollTo(0, 0);
-  };
+    window.scrollTo(0, 0)
+  }
   return (
     <div className="grid__project">
       {Projects &&
         Projects.map((project) => (
-          <Link key={project.id} to={`/project/${project.id}`} onClick={handleClick}>
+          <Link
+            key={project.id}
+            to={`/projects/${project.id}`}
+            onClick={handleClick}
+          >
             <figure className="grid__project__card" key={project.id}>
               <div className="grid__project__card-inner">
                 <div className="grid__project__card-front">

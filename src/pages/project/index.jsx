@@ -28,7 +28,7 @@ const Project = () => {
                 alt="flèche de retour page home"
               />
             </a>
-            <h1 className="project__header-title">{project.title}</h1>
+            <h2 className="project__header-title">{project.title}</h2>
           </div>
           <section className="project__section">
             <div className="project__section-description">

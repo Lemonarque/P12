@@ -14,9 +14,10 @@ const DownloadBtn = () => {
         rel="noreferrer"
         aria-label="Télécharger mon CV"
         aria-roledescription="Document PDF"
+        title="Télécharger mon CV"
       >
-          Télécharger mon CV
-          <img src={pdf} alt="Icône document PDF" />
+        Télécharger mon CV
+        <img src={pdf} alt="Icône document PDF" />
       </a>
     </div>
   )
