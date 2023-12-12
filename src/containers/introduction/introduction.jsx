@@ -37,7 +37,7 @@ const Introduction = () => {
         <p>
           Je suis très enthousiaste à l’idée de découvrir de nouvelles
           opportunités et développer de nouvelles compétences dans le domaine du
-          développement web.
+          développement web tout en perfectionnant celles déjà acquises.
         </p>
         <div className="intro__desc-liens">
           <a href="https://github.com/Matthieu83600" target="blank">
@@ -47,7 +47,7 @@ const Introduction = () => {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/matthieu-bonjour-34b5a5267/"
+            href="https://www.linkedin.com/in/matthieu-bonjour/"
             target="blank"
           >
             <img
