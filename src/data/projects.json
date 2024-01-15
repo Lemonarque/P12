@@ -2,6 +2,7 @@
   {
     "id": "project1",
     "title": "Riding Cities",
+    "category": "HTML",
     "briefDescription": "Riding Cities est une association sportive qui promeut le skate en région parisienne. L'association souhaite améliorer son site internet.",
     "cover": "../assets/projects/riding-cities/cover.webp",
     "alt": "Photo d'un skateboard",
@@ -27,6 +28,7 @@
   {
     "id": "project2",
     "title": "Booki",
+    "category": "HTML",
     "briefDescription": "Booki est une start-up qui souhaite permettre aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.",
     "cover": "../assets/projects/booki/cover.webp",
     "alt": "Photo d'un hébergement du site de Booki",
@@ -54,6 +56,7 @@
   {
     "id": "project3",
     "title": "Ohmyfood",
+    "category": "HTML",
     "briefDescription": "Ohmyfood est une jeune start-up qui souhaite s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite faire sa place à Paris.",
     "cover": "../assets/projects/ohmyfood/cover.webp",
     "alt": "Photo d'un plat d'un restaurant",
@@ -81,6 +84,7 @@
   {
     "id": "project4",
     "title": "Print It",
+    "category": "JavaScript",
     "briefDescription": "Print It est une petite entreprise familiale. Elle souhaite dynamiser son site internet en y ajoutant un carrousel.",
     "cover": "../assets/projects/print-it/cover.webp",
     "alt": "Photo d'imagerie",
@@ -104,6 +108,7 @@
   {
     "id": "project5",
     "title": "Portfolio - Sophie Bluel",
+    "category": "JavaScript",
     "briefDescription": "Sophie Bluel est une architecte d'intérieur qui souhaite mettre en avant son travail avec un site portfolio où elle pourra elle-même les ajouter en se connectant à son interface administrateur.",
     "cover": "../assets/projects/portfolio-sophie-bluel/cover.webp",
     "alt": "Photo de rénovation d'un bar",
@@ -130,6 +135,7 @@
   {
     "id": "project6",
     "title": "Menu Maker",
+    "category": "Gestion de projet",
     "briefDescription": "Je rejoins l'agence Webgencia qui me confie une mission un peu particulière : planifier le développement du prochain site de notre client Qwenta.",
     "cover": "../assets/projects/menu-maker/cover.webp",
     "alt": "Logo du site Menu Maker by Qwenta",
@@ -157,6 +163,7 @@
   {
     "id": "project7",
     "title": "Kasa",
+    "category": "React",
     "briefDescription": "Kasa est dans le métier de la location d'appartements entre particuliers depuis maintenant 10 ans, et souhaite aujourd'hui développer une nouvelle plateforme web avec React.",
     "cover": "../assets/projects/kasa/cover.webp",
     "alt": "Logo de Kasa",
@@ -185,6 +192,7 @@
   {
     "id": "project8",
     "title": "Nina Carducci",
+    "category": "SEO",
     "briefDescription": "Je propose mes services d'optimisation SEO à plusieurs clients. Et Nina Carducci, photographe expérimentée basée à Bordeaux accepte ma proposition d'optimisation de son site.",
     "cover": "../assets/projects/nina-carducci/cover.webp",
     "alt": "Photo de mariage prise par Nina Carducci",
@@ -208,6 +216,7 @@
   {
     "id": "project9",
     "title": "724 events",
+    "category": "React",
     "briefDescription": "L'agence d'événementielle 724events me contacte pour son site vitrine afin de reprendre le développement et débugger le travail déjà mis en place par un autre développeur.",
     "cover": "../assets/projects/724events/cover.webp",
     "alt": "Conférence d'un événement de 724events",
@@ -234,6 +243,7 @@
   {
     "id": "project10",
     "title": "Argent Bank",
+    "category": "React",
     "briefDescription": "J'intègre Argent Bank, une nouvelle banque en ligne qui souhaite que j'implémente le front-end de son application en utilisant React.",
     "cover": "../assets/projects/argent-bank/cover.webp",
     "alt": "Bannière du site",
@@ -271,6 +281,7 @@
   {
     "id": "project11",
     "title": "Mon Portfolio",
+    "category": "React",
     "briefDescription": "Mon site portfolio, celui sur lequel vous naviguez actuellement,  où j'expose les différents projets sur lesquels j'ai travaillé.",
     "cover": "../assets/projects/my-portfolio/cover.webp",
     "alt": "Logo de mon site",
@@ -293,21 +304,21 @@
   },
   {
     "id": "project12",
-    "title": "Projet à venir",
-    "briefDescription": "Prochain projet à venir...",
+    "title": "Mon Portfolio 2.0",
+    "briefDescription": "Reconstruction de mon portfolio en mettant en avant le framework Next.js",
     "cover": "../assets/projects/a-venir/cover.webp",
     "alt": "Photo à venir",
-    "description": "Prochainement nouveau projet.",
-    "mission": "Il parlera de...",
-    "competences": ["..."],
-    "tags": ["...", "..."],
+    "description": "Pour un meilleur référencement naturel, et une lecture plus facile des robots d'indexation, j'ai décidé de redévelopper mon portfolio avec Next.js.",
+    "mission": "Elle consiste simplement à améliorer mon portfolio et à apprendre à utiliser le framework Next.js ainsi que, le framework Tailwind CSS.",
+    "competences": ["Concevoir un site avec Next.js", "Apprendre à utiliser Tailwind CSS"],
+    "tags": ["Next.js", "Tailwind CSS", "Responsive"],
     "pictures": [
       "../assets/projects/a-venir/mock0.webp",
       "../assets/projects/a-venir/mock1.webp",
       "../assets/projects/a-venir/mock2.webp",
       "../assets/projects/a-venir/mock3.webp"
     ],
-    "site": "",
-    "github": ""
+    "site": "https://matthieubonjour.fr/",
+    "github": "https://github.com/Matthieu83600/Portfolio-2.0"
   }
 ]

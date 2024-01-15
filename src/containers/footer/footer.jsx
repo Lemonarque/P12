@@ -18,7 +18,7 @@ const Footer = () => {
         </Link>
       </div>
       <div className="footer__middle">
-        <p>Tous droits réservés © 2023 - Matthieu Bonjour</p>
+        <p>Tous droits réservés © 2024 - Matthieu Bonjour</p>
       </div>
       <div className="right">
         <Link
