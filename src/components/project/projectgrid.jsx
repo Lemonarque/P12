@@ -42,6 +42,7 @@ const Filter = ({ onFilterChange }) => {
               <option value="JavaScript">JavaScript</option>
               <option value="React">React</option>
               <option value="Gestion de projet">Gestion de projet</option>
+              <option value="Debug">Debug</option>
               <option value="SEO">SEO</option>
         </select>
     </div>

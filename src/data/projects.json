@@ -216,7 +216,7 @@
   {
     "id": "project9",
     "title": "724 events",
-    "category": "React",
+    "category": "Debug",
     "briefDescription": "L'agence d'événementielle 724events me contacte pour son site vitrine afin de reprendre le développement et débugger le travail déjà mis en place par un autre développeur.",
     "cover": "../assets/projects/724events/cover.webp",
     "alt": "Conférence d'un événement de 724events",

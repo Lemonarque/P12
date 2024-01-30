@@ -52,5 +52,23 @@
     "title": "React-Router",
     "image": "../assets/skills/languages/react-router.svg",
     "alt": "Icône React-Router"
+  },
+  {
+    "id": "language10",
+    "title": "Next.js",
+    "image": "../assets/skills/languages/nextjs.png",
+    "alt": "Icône React-Router"
+  },
+  {
+    "id": "language11",
+    "title": "Node.js",
+    "image": "../assets/skills/languages/nodejs.png",
+    "alt": "Icône React-Router"
+  },
+  {
+    "id": "language12",
+    "title": "Express",
+    "image": "../assets/skills/languages/expressjs.png",
+    "alt": "Icône React-Router"
   }
 ]
