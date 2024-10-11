@@ -21,8 +21,7 @@ const Introduction = () => {
       <div className="intro__desc">
         <p>
           Passionné par les nouvelles technologies, j'ai choisi de me
-          reconvertir professionnellement après 8 années passées dans la vente
-          de produits divers et variés.
+          reconvertir après sans réel formation.
           <br />
           Et ainsi, de suivre ma passion pour la programmation et d'acquérir de
           nouvelles compétences qui viennent compléter celles acquises pendant
@@ -40,14 +39,14 @@ const Introduction = () => {
           développement web tout en perfectionnant celles déjà acquises.
         </p>
         <div className="intro__desc-liens">
-          <a href="https://github.com/Matthieu83600" target="blank">
+          <a href="https://github.com/Lemonarque" target="blank">
             <img
               src={darkMode ? DarkGitHub : GitHub}
               alt="Lien vers mon profil Github"
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/matthieu-bonjour/"
+            href="https://profile.indeed.com/?hl=fr_FR&co=FR&from=gnav-jobsearch--indeedmobile"
             target="blank"
           >
             <img
@@ -56,7 +55,7 @@ const Introduction = () => {
             />
           </a>
           <a
-            href="https://x.com/BonjourMat83600?=V9bTy94aQMLvl_l96_nnZA&s=09"
+            href="https://x.com/Mister_Hows"
             target="blank"
           >
             <img
@@ -72,9 +71,9 @@ const Introduction = () => {
         <img
           className="image-theme"
           src={MaPhoto}
-          alt="Portrait de Matthieu Bonjour"
+          alt="Portrait de Nour"
         />
-        <h3>Matthieu Bonjour</h3>
+        <h3>Nour Tarnagada</h3>
         <h3>Développeur front-end</h3>
       </div>
     </section>

@@ -78,8 +78,8 @@
       "../assets/projects/ohmyfood/mock6.webp",
       "../assets/projects/ohmyfood/mock7.webp"
     ],
-    "site": "https://matthieu83600.github.io/OhMyFood/",
-    "github": "https://github.com/Matthieu83600/OhMyFood"
+    "site": "https://lemonarque.github.io/Projet-4/",
+    "github": "https://github.com/Lemonarque/Projet-4"
   },
   {
     "id": "project4",
@@ -102,8 +102,8 @@
       "../assets/projects/print-it/mock6.webp",
       "../assets/projects/print-it/mock7.webp"
     ],
-    "site": "https://matthieu83600.github.io/Print-It/",
-    "github": "https://github.com/Matthieu83600/Print-It"
+    "site": "https://lemonarque.github.io/Projet-5/",
+    "github": "https://github.com/Lemonarque/Projet-5"
   },
   {
     "id": "project5",
@@ -130,7 +130,7 @@
       "../assets/projects/portfolio-sophie-bluel/mock6.webp",
       "../assets/projects/portfolio-sophie-bluel/mock7.webp"
     ],
-    "github": "https://github.com/Matthieu83600/Portfolio-Sophie-Bluel"
+    "github": "https://github.com/Lemonarque/Projet-6"
   },
   {
     "id": "project6",
@@ -187,7 +187,7 @@
       "../assets/projects/kasa/mock7.webp"
     ],
     "site": "https://kasa-matthieubonjour.vercel.app/",
-    "github": "https://github.com/Matthieu83600/Kasa"
+    "github": "https://github.com/Lemonarque/P8"
   },
   {
     "id": "project8",
@@ -210,8 +210,8 @@
       "../assets/projects/nina-carducci/mock6.webp",
       "../assets/projects/nina-carducci/mock7.webp"
     ],
-    "site": "https://matthieu83600.github.io/Nina-Carducci/",
-    "github": "https://github.com/Matthieu83600/Nina-Carducci"
+    "site": "https://lemonarque.github.io/P9/",
+    "github": "https://github.com/Lemonarque/P9"
   },
   {
     "id": "project9",
@@ -238,7 +238,7 @@
       "../assets/projects/724events/mock7.webp"
     ],
     "site": "https://724events-matthieubonjour.vercel.app/",
-    "github": "https://github.com/Matthieu83600/724events"
+    "github": "https://github.com/Lemonarque/P10"
   },
   {
     "id": "project10",
@@ -276,49 +276,6 @@
       "../assets/projects/argent-bank/mock9.webp"
     ],
     "site": "https://matthieu83600-argent-bank-front-end.vercel.app/",
-    "github": "https://github.com/Matthieu83600/ArgentBank-FrontEnd"
-  },
-  {
-    "id": "project11",
-    "title": "Mon Portfolio",
-    "category": "React",
-    "briefDescription": "Mon site portfolio, celui sur lequel vous naviguez actuellement,  où j'expose les différents projets sur lesquels j'ai travaillé.",
-    "cover": "../assets/projects/my-portfolio/cover.webp",
-    "alt": "Logo de mon site",
-    "description": "Le projet 12 et dernier projet du parcours Intégrateur Web d'OpenClassrooms consiste à créer et mettre en ligne son site portfolio.",
-    "mission": "Elle consiste tout simplement à créer mon portfolio qui me servira à me présenter, mettre en avant les différentes compétences que j'ai acquis, et montrer les projets sur lesquels j'ai travaillé tout au long de ma formation avec OpenClassrooms. Puis de déployer mon site en ligne et qu'il soit responsive c'est-à-dire qu'il s'adapte à tous les écrans : pc, tablette, smartphone.",
-    "competences": ["Déployer un site statique en ligne."],
-    "tags": ["React", "React-Router", "Sass", "Responsive"],
-    "pictures": [
-      "../assets/projects/my-portfolio/mock0.webp",
-      "../assets/projects/my-portfolio/mock1.webp",
-      "../assets/projects/my-portfolio/mock2.webp",
-      "../assets/projects/my-portfolio/mock3.webp",
-      "../assets/projects/my-portfolio/mock4.webp",
-      "../assets/projects/my-portfolio/mock5.webp",
-      "../assets/projects/my-portfolio/mock6.webp",
-      "../assets/projects/my-portfolio/mock7.webp"
-    ],
-    "site": "https://matthieubonjour.fr/",
-    "github": "https://github.com/Matthieu83600/Portfolio"
-  },
-  {
-    "id": "project12",
-    "title": "Mon Portfolio 2.0",
-    "briefDescription": "Reconstruction de mon portfolio en mettant en avant le framework Next.js",
-    "cover": "../assets/projects/a-venir/cover.webp",
-    "alt": "Photo à venir",
-    "description": "Pour un meilleur référencement naturel, et une lecture plus facile des robots d'indexation, j'ai décidé de redévelopper mon portfolio avec Next.js.",
-    "mission": "Elle consiste simplement à améliorer mon portfolio et à apprendre à utiliser le framework Next.js ainsi que, le framework Tailwind CSS.",
-    "competences": ["Concevoir un site avec Next.js", "Apprendre à utiliser Tailwind CSS"],
-    "tags": ["Next.js", "Tailwind CSS", "Responsive"],
-    "pictures": [
-      "../assets/projects/a-venir/mock0.webp",
-      "../assets/projects/a-venir/mock1.webp",
-      "../assets/projects/a-venir/mock2.webp",
-      "../assets/projects/a-venir/mock3.webp"
-    ],
-    "site": "https://matthieubonjour.fr/",
-    "github": "https://github.com/Matthieu83600/Portfolio-2.0"
+    "github": "https://github.com/Lemonarque/P11"
   }
 ]
