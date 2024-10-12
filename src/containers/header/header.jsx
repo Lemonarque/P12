@@ -5,7 +5,7 @@ import '../../sass/containers/_header.scss'
 const Header = () => {
   return (
     <header className="header">
-      <h1 className="header__title">Portfolio - Matthieu Bonjour</h1>
+      <h1 className="header__title">Portfolio - Nour Tarnagada</h1>
       <Logo />
       <Menu />
     </header>

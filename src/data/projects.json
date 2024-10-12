@@ -22,8 +22,8 @@
       "../assets/projects/riding-cities/mock6.webp",
       "../assets/projects/riding-cities/mock7.webp"
     ],
-    "site": "https://matthieu83600.github.io/Riding-Cities/",
-    "github": "https://github.com/Matthieu83600/Riding-Cities"
+    "site": "https://lemonarque.github.io/P2/",
+    "github": "https://github.com/Lemonarque/P2"
   },
   {
     "id": "project2",
@@ -50,8 +50,8 @@
       "../assets/projects/booki/mock6.webp",
       "../assets/projects/booki/mock7.webp"
     ],
-    "site": "https://matthieu83600.github.io/Booki/",
-    "github": "https://github.com/Matthieu83600/Booki"
+    "site": "https://lemonarque.github.io/P3/",
+    "github": "https://github.com/Lemonarque/P3"
   },
   {
     "id": "project3",
@@ -158,7 +158,7 @@
       "../assets/projects/menu-maker/mock5.webp",
       "../assets/projects/menu-maker/mock6.webp"
     ],
-    "github": "https://github.com/Matthieu83600/Menu-Maker"
+    "github": "https://github.com/Lemonarque/P7"
   },
   {
     "id": "project7",
@@ -237,7 +237,7 @@
       "../assets/projects/724events/mock6.webp",
       "../assets/projects/724events/mock7.webp"
     ],
-    "site": "https://724events-matthieubonjour.vercel.app/",
+    "site": "https://p10-gray.vercel.app/",
     "github": "https://github.com/Lemonarque/P10"
   },
   {
@@ -275,7 +275,7 @@
       "../assets/projects/argent-bank/mock8.webp",
       "../assets/projects/argent-bank/mock9.webp"
     ],
-    "site": "https://matthieu83600-argent-bank-front-end.vercel.app/",
+    "site": "https://p11-nu.vercel.app/",
     "github": "https://github.com/Lemonarque/P11"
   }
 ]
